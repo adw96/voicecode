@@ -1,4 +1,5 @@
 # Commands.addMisspellings('', [''])
+
       
 # alphabet
 Commands.addMisspellings('catch', ['alphabet:letters:edge'])
@@ -11,9 +12,10 @@ Commands.addMisspellings('marsh', ['alphabet:letters:mowsh'])
 Commands.addMisspellings('mash', ['alphabet:letters:mowsh'])
 Commands.addMisspellings('rush', ['alphabet:letters:rosh'])
 Commands.addMisspellings('roche', ['alphabet:letters:rosh'])
+Commands.addMisspellings('zug', ['alphabet:letters:souk'])
 Commands.addMisspellings('soup', ['alphabet:letters:souk'])
 Commands.addMisspellings('tracks', ['alphabet:letters:trex'])
-Commands.addMisspellings('want', ['alphabet:letters:womp])
+Commands.addMisspellings('want', ['alphabet:letters:womp'])
 
 # common
 Commands.addMisspellings(['type', 'top'], ['common:tab'])
@@ -45,7 +47,7 @@ Commands.addMisspellings('apple', ['repetition:command'])
 Commands.addMisspellings('triple', ['repetition:command'])
 Commands.addMisspellings('rebel', ['repetition:command'])
 Commands.addMisspellings('travel', ['repetition:command'])
-# Commands.addMisspellings('treble', ['repetition:command'])
+Commands.addMisspellings('treble', ['repetition:command'])
 
 
 

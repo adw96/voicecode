@@ -11,7 +11,7 @@ Settings.vocabulary =
     'objective bays': 'Objective Bayes'
     'phylogeny is': 'phylogenies'
     'to apologies': 'topologies'
-    'arrow': 'error'
+#    'arrow': 'error'
     'treat apologies': 'tree topologies'
     "phylogenetic's": ' phylogenetics'
     "phylogenetic 's": ' phylogenetics'
@@ -21,7 +21,7 @@ Settings.vocabulary =
     'bayta': 'betta'
     'ali': 'Allie'
     "scots": "Scott's"
-
+    'prescription': 'script'
 
 
 

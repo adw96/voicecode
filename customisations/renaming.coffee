@@ -10,6 +10,8 @@ renames =
   'pounder': 'symbols:hashtag'
   'percy': 'symbols:percent'
   'lexi': 'selection:way-left'
+  'treble': 'repetition:command'
+  'triple': 'repetition:command'
 _.each renames, (value, key) ->
   Package.command "renamed-#{key}",
     spoken: key
@@ -17,16 +19,5 @@ _.each renames, (value, key) ->
     action: ->
       @do value
 
-
-renames =
-  'shrunkrim': 'cursor:word-left'
-  'shunkrish': 'cursor:word-right'
-_.each renames, (value, key) ->
-  Package.command "renamed-#{key}",
-    spoken: key
-    enabled: true
-    repeatable: true
-    action: ->
-      @do value
 
 
