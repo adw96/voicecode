@@ -7,7 +7,7 @@ texshop = Packages.register
   application: 'TeXShop'
   name: 'texshop'
 
-Package.implement { scope: 'texshop' },
+Package.implement { scope: 'texshop', 'eclipse' },
   'editor:move-to-line-number': (input) ->
     @key 'l', 'command'
     if input?
