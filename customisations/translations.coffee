@@ -1,10 +1,6 @@
 Settings.vocabulary =
   translations:
     "you dub": "UW"
-    "not 0": "not zero"
-    "not 1": "not one"
-    "only 1": "only one"
-    "1 of": "one of"    
     "cut-off": "cutoff"
     "maine": "main"
     "et cetera": "etc."
