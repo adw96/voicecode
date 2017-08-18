@@ -2,8 +2,6 @@ letters = _.values Settings.alphabet.letters
 numbers = _.values Settings.numbers.numbers
 selections = _.values Settings.selection.commands
 
-myRepeatedCommands2 = ['page up', 'page down', 'shrunkrim', 'shrunkrish', 'junk', 'doom', 'jeep', 'crimp', 'chris', 'shreep', 'shroom', 'shrim', 'shrish', 'scram', 'scrish']
-
 myRepeatedCommands = [
   'common:delete'
   'cursor:right'
@@ -20,4 +18,4 @@ Settings.vocabulary =
     myRepeatedCommands: ['repetition:command']
     'repetition:command': numbers
     selections: ['repetition:command']
-
+    'modifiers:command': letters

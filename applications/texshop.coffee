@@ -34,7 +34,7 @@ Package.command 'frechet',
 frameworks =
   'theorem': 'the'
   'definition': 'definition'
-  'align': 'a line'
+  'align': 'align'
   'proposition': 'proposition'
   'proof': 'proof'
   'remark': 'remark'

@@ -6,7 +6,6 @@ apps =
   'asked judy': "RStudio"
   findy: "Finder"
   calendii: "Calendar"
-  maily: "Mail"
   texty: "TextEdit"
   handsy: "RSIGuard"
   messagey: "Messages"
