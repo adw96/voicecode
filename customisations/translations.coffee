@@ -1,6 +1,7 @@
 Settings.vocabulary =
   translations:
-    "you dub": "UW"
+    "pseudo-": "sudo"
+    "youdub": "UW"
     "cut-off": "cutoff"
     "maine": "main"
     "et cetera": "etc."

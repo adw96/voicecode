@@ -58,6 +58,5 @@ Commands.addMisspellings('triple', ['repetition:command'])
 Commands.addMisspellings('rebel', ['repetition:command'])
 Commands.addMisspellings('travel', ['repetition:command'])
 Commands.addMisspellings('treble', ['repetition:command'])
-
-
+Commands.addMisspellings('rabble', ['repetition:command'])
 
