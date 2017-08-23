@@ -14,10 +14,12 @@ apps =
   termee: "Terminal"
   techie: "TeXShop"
   pointy: "Microsoft Powerpoint"
-  pappy: "Papers 3.4.8"
+  pappy: "Papers"
   wordy: "Microsoft Word"
   clipsy: "Eclipse"
   kenotee: "Keynote"
+  atomee: "Atom"
+  seti: "System Preferences"
 
 _.each apps, (value, key) ->
   Package.command "launch #{value.toLowerCase()}",

@@ -19,3 +19,4 @@ Settings.vocabulary =
     'repetition:command': numbers
     selections: ['repetition:command']
     'modifiers:command': letters
+    'common:delete': 'common:delete'

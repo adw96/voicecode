@@ -10,17 +10,11 @@ renames =
   'pounder': 'symbols:hashtag'
   'percy': 'symbols:percent'
   'lexi': 'selection:way-left'
-  'treble': 'repetition:command'
-  'rabble': 'repetition:command'
-  'rebel': 'repetition:command'
-  'triple': 'repetition:command'
   'carat': 'symbols:caret'
 _.each renames, (value, key) ->
   Package.command "renamed-#{key}",
     spoken: key
     enabled: true
+    repetition: true
     action: ->
       @do value
-
-
-
