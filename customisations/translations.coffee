@@ -27,7 +27,6 @@ Settings.vocabulary =
     "scots": "Scott's"
     'prescription': 'script'
     'initialise': 'initialize'
-    'insert street address': '3534 NE 90th St'
     'insert gmail address': 'amy.willis7@gmail.com'
     'insert cornell address': 'adw96@cornell.edu'
     'insert you dub address': 'adwillis@uw.edu'
