@@ -1,6 +1,20 @@
 # '': ['']
 
 misspellings =
+    # repetition
+    'apple': ['repetition:command']
+    'grapple': ['repetition:command']
+    'gravel': ['repetition:command']
+    'raffle': ['repetition:command']
+    'rabble': ['repetition:command']
+    'rebel': ['repetition:command']
+    'rubble': ['repetition:command']
+    'ruppel': ['repetition:command']
+    'travel': ['repetition:command']
+    'treble': ['repetition:command']
+    'triple': ['repetition:command']
+    'trouble': ['repetition:command']
+
   # alphabet
     'dark': ['alphabet:letters:arch']
     'catch': ['alphabet:letters:etch']
@@ -31,6 +45,7 @@ misspellings =
 
     # cursor
     'same': ['cursor:word-left']
+    'cheap': ['cursor:up']
 
     # custom
     'asked judy': ['user:launch_apps_nicknames:launch rstudio']
@@ -40,6 +55,9 @@ misspellings =
     'champion': ['format:capitalize-next-word']
     'temp': ['format:capitalize-next-word']
     'yellow': ['format:upper']
+
+    # mouse
+    'geoff': ['mouse:click']
 
     # symbols
     'charles': ['symbols:backslash']
@@ -54,14 +72,6 @@ misspellings =
     'screen': ['selection:word-left']
     'scramble': ['selection:word-left']
     'lexi': ['selection:way-left']
-
-    # repetition
-    'apple': ['repetition:command']
-    'triple': ['repetition:command']
-    'rebel': ['repetition:command']
-    'travel': ['repetition:command']
-    'treble': ['repetition:command']
-    'rabble': ['repetition:command']
 
 _.each misspellings, (alternate, id) ->
   Commands.addMisspellings alternate, id

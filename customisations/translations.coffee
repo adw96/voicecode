@@ -23,21 +23,14 @@ Settings.vocabulary =
     'set working directory': 'setwd'
     'get working directory': 'getwd'
     'bayta': 'betta'
-    'ali': 'Allie'
-    "scots": "Scott's"
     'prescription': 'script'
     'initialise': 'initialize'
-    'insert gmail address': 'amy.willis7@gmail.com'
-    'insert cornell address': 'adw96@cornell.edu'
-    'insert you dub address': 'adwillis@uw.edu'
     "fast a": "fasta"
     "fast q": "fastq"
     "fast cue": "fastq"
     "i'd": "I'd"
     "i've": "I've"
-
-
-# names =
-#   'editor:extend-selection-to-line-number': 'new'
-#
-# _.each names, (spoken, id) -> Commands.changeSpoken id, spoken
+    "hi dimension all": "high dimensional"
+    "metagenomic s": "metagenomics"
+    "variants": "variance"
+    "sa": "essay"
