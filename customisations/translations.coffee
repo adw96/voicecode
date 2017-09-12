@@ -34,3 +34,9 @@ Settings.vocabulary =
     "metagenomic s": "metagenomics"
     "variants": "variance"
     "sa": "essay"
+    'ali': 'Allie'
+    "scots": "Scott's"
+    'insert personal email': 'amy.willis7@gmail.com'
+    'insert cornell email': 'adw96@cornell.edu'
+    'insert work email': 'adwillis@uw.edu'
+    'insert work address': '1959 NE Pacific St'

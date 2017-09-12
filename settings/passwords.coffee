@@ -5,4 +5,4 @@ Settings.insert =
     cornell: '20d21293619246047beb09c7633a1460:6f9f2af599fbf58fae852cdadfb08a1e'
     github: '5c90f11093f6fca10dd1262cbe652101:5b5f823a6bae6602eb6ddbe6ee70202d'
     address: '41f3fba09707f045b256e58dd16385bb:7fc30e721fc479b3576c23e7a5eb6efe'
-    
+    trivial: 'bfa5504e29500ddae023cc6dde6b8c67:512f35c218d62c6694951e2305a6448d'
