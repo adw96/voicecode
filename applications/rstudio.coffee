@@ -21,3 +21,16 @@ Package.command 'rambo',
   enabled: true
   action: ->
    @string " <- "
+
+rstudio.implement { scope: 'rstudio' },
+  'editor:toggle-comments': (input) ->
+    @key 'c', 'command shift'
+
+rstudio.implement { scope: 'rstudio' },
+  'object:next': (input) ->
+    @key '1', 'control'
+
+rstudio.implement { scope: 'rstudio' },
+  'object:previous': (input) ->
+    @key '2
+    ', 'control'

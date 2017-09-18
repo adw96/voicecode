@@ -1,7 +1,5 @@
-# '': ['']
-
 misspellings =
-    # repetition
+    # repetition; see also repetition.coffee
     'apple': ['repetition:command']
     'grapple': ['repetition:command']
     'gravel': ['repetition:command']
@@ -64,7 +62,6 @@ misspellings =
     'shells': ['symbols:backslash']
     'shows': ['symbols:backslash']
     'climate': ['symbols:exclamation']
-    'symbols:comma': ['symbols:exclamation']
     'carat': ['symbols:caret']
 
     # selection
@@ -74,4 +71,6 @@ misspellings =
     'lexi': ['selection:way-left']
 
 _.each misspellings, (alternate, id) ->
-  Commands.addMisspellings alternate, id
+  Commands.addMisspellings id, alternate
+
+Commands.addMisspellings "repple", ['apple', 'grapple','gravel','raffle','rabble', 'rebel','rubble','ruppel','travel','treble','triple', 'trouble']
