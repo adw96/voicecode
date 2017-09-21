@@ -22,6 +22,13 @@ Package.command 'rambo',
   action: ->
    @string " <- "
 
+Package.command 'pipe',
+     spoken: 'pipe'
+     enabled: true
+     scope: 'rstudio'
+     action: ->
+      @string " %>% "
+
 rstudio.implement { scope: 'rstudio' },
   'editor:toggle-comments': (input) ->
     @key 'c', 'command shift'
