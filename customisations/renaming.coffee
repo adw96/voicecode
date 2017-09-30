@@ -4,6 +4,7 @@ Settings.modifiers =
     'triff': 'control shift'
 
 Commands.changeSpoken 'symbols:exclamation', 'clamour'
+Commands.changeSpoken 'mouse:click', 'geoff'
 
 renames =
   'loco': 'symbols:at'

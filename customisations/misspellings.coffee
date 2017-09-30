@@ -55,7 +55,7 @@ misspellings =
     'yellow': ['format:upper']
 
     # mouse
-    'geoff': ['mouse:click']
+#    'geoff': ['mouse:click']
 
     # symbols
     'charles': ['symbols:backslash']

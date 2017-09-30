@@ -23,23 +23,21 @@ Package.command "shells to shalls",
     action: ->
       @do 'symbols:backslash'
 
-Package.command 'frechet', 
+Package.command 'frechet',
   spoken: 'fretchet'
   enabled: true
   spacing: 'normal normal'
-  action: -> 
+  action: ->
     @string " Fr\\'echet "
 
 
 frameworks =
   'theorem': 'the'
   'definition': 'definition'
-  'align': 'align'
   'proposition': 'proposition'
   'proof': 'proof'
   'remark': 'remark'
   'corollary': 'corollary'
-  'enumerate': 'and numerate'
 _.each frameworks, (sound, key) ->
   Package.command "insert #{key} framework",
     spoken: "insert #{sound} framework"
@@ -57,3 +55,22 @@ _.each frameworks, (sound, key) ->
       @do 'cursor:up'
 
 
+frameworks2 =
+  'align': 'align'
+  'enumerate': 'and numerate'
+_.each frameworks2, (sound, key) ->
+  Package.command "insert #{key} framework",
+    spoken: "insert #{sound} framework"
+    enabled: true
+    action: ->
+      @string "\\begin{"
+      @string key
+      @string "}"
+      @key "return"
+      @string "\\end{"
+      @string key
+      @string "}"
+      @do 'cursor:way-left'
+      @key "return"
+      @do 'cursor:up'
+      @string "\\item "

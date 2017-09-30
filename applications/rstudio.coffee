@@ -29,6 +29,18 @@ Package.command 'pipe',
      action: ->
       @string " %>% "
 
+Package.command "knitr",
+    spoken: "knitter chunk"
+    enabled: true
+    action: ->
+      @string "```{r}```"
+      @do 'cursor:left'
+      @do 'cursor:left'
+      @do 'cursor:left'
+      @key "return"
+      @key "return"
+      @do 'cursor:up'
+
 rstudio.implement { scope: 'rstudio' },
   'editor:toggle-comments': (input) ->
     @key 'c', 'command shift'
