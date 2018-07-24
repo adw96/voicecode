@@ -12,6 +12,7 @@ renames =
   'percy': 'symbols:percent'
   'lexi': 'selection:way-left'
   'carat': 'symbols:caret'
+  'rubble': 'repetition:command'
 _.each renames, (value, key) ->
   Package.command "renamed-#{key}",
     spoken: key

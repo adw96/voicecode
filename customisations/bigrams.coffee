@@ -11,12 +11,10 @@ myRepeatedCommands = [
   'selection:word-left'
 ]
 
+
+
 Settings.vocabulary =
   sequences:
     'common:delete': letters
     'symbols:colon': letters
-    myRepeatedCommands: ['repetition:command']
     'repetition:command': numbers
-    selections: ['repetition:command']
-    'modifiers:command': letters
-    'common:delete': 'common:delete'

@@ -1,18 +1,7 @@
-misspellings =
-    # repetition; see also repetition.coffee
-    'apple': ['repetition:command']
-    'grapple': ['repetition:command']
-    'gravel': ['repetition:command']
-    'raffle': ['repetition:command']
-    'rabble': ['repetition:command']
-    'rebel': ['repetition:command']
-    'rubble': ['repetition:command']
-    'ruppel': ['repetition:command']
-    'travel': ['repetition:command']
-    'treble': ['repetition:command']
-    'triple': ['repetition:command']
-    'trouble': ['repetition:command']
+# repetition
+Commands.addMisspellings ['repetition:command'], ['grapple','gravel','raffle','rabble', 'rebel','rubble','ruppel','treble', 'repple']
 
+misspellings =
   # alphabet
     'dark': ['alphabet:letters:arch']
     'catch': ['alphabet:letters:etch']
@@ -33,6 +22,7 @@ misspellings =
     'teak': ['alphabet:letters:teek']
     'tracks': ['alphabet:letters:trex']
     'want': ['alphabet:letters:womp']
+    'search': ['alphabet:letters:zooch']
 
     # common
     'type': ['common:tab']
@@ -41,9 +31,14 @@ misspellings =
     'trunk': ['common:delete']
     'chunk': ['common:delete']
 
+    # caller
+    'keep a': ['core:pass-through']
+
     # cursor
     'same': ['cursor:word-left']
     'cheap': ['cursor:up']
+    'reggie': ['cursor:way-right']
+    # '': ['cursor:left']
 
     # custom
     'asked judy': ['user:launch_apps_nicknames:launch rstudio']
@@ -63,6 +58,7 @@ misspellings =
     'shows': ['symbols:backslash']
     'climate': ['symbols:exclamation']
     'carat': ['symbols:caret']
+    'scottish': ['symbols:space']
 
     # selection
     'scan': ['selection:word-left']
@@ -72,5 +68,3 @@ misspellings =
 
 _.each misspellings, (alternate, id) ->
   Commands.addMisspellings id, alternate
-
-Commands.addMisspellings "repple", ['apple', 'grapple','gravel','raffle','rabble', 'rebel','rubble','ruppel','travel','treble','triple', 'trouble']

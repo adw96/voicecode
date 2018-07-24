@@ -8,4 +8,6 @@ Settings.vocabulary =
     "bayes"
     "taxa"
     "rare taxa"
+    "frac"
+    "lambda"
   ]
